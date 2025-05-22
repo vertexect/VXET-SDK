@@ -7,6 +7,8 @@ VXET-SDK 是 VXET 区块链的官方开发工具包，提供了与 VXET 区块�
 - 完整的 VXET 区块链客户端实现
 - 多种命令行工具，便于开发和调试
 - 丰富的 API 接口，方便应用开发
+- 灵活的共识机制支持
+- 完善的 RPC 服务
 
 ## 系统要求
 
@@ -64,8 +66,26 @@ make test
   - `vxet/`: VXET 客户端
   - `abigen/`: 智能合约 ABI 生成工具
   - 其他实用工具
+- `common/`: 通用工具和数据结构
+  - `hexutil/`: 十六进制工具
+  - `math/`: 数学运算工具
+  - `prque/`: 优先队列实现
+- `consensus/`: 共识算法实现
+  - `clique/`: PoA 共识算法
+- `vxetclient/`: 客户端实现
+  - `gethclient/`: 以太坊客户端兼容接口
 - `vxet/`: 核心区块链实现
+  - `protocols/`: 网络协议实现
+  - `gasprice/`: Gas 价格管理
+  - `downloader/`: 区块下载器
 - `params/`: 网络参数配置
+- `rpc/`: RPC 服务实现
+- `p2p/`: P2P 网络层实现
+- `vxetdb/`: 区块链数据库
+- `node/`: 节点服务
+- `console/`: 控制台接口
+- `graphql/`: GraphQL API 实现
+- `signer/`: 交易签名工具
 
 ## 许可证
 
