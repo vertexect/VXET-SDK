@@ -1,101 +1,101 @@
 # VXET-SDK
 
-VXET-SDK 是 VXET 区块链的官方开发工具包，提供了与 VXET 区块链交互的完整工具集。
+VXET-SDK is the official development toolkit for the VXET blockchain, providing a complete set of tools for interacting with the VXET blockchain.
 
-## 功能特点
+## Features
 
-- 完整的 VXET 区块链客户端实现
-- 多种命令行工具，便于开发和调试
-- 丰富的 API 接口，方便应用开发
-- 灵活的共识机制支持
-- 完善的 RPC 服务
+- Complete VXET blockchain client implementation
+- Various command-line tools for development and debugging
+- Rich API interfaces for application development
+- Flexible consensus mechanism support
+- Comprehensive RPC services
 
-## 系统要求
+## System Requirements
 
-- Go 1.20 或更高版本
-- 适用于 Linux、MacOS 和 Windows 系统
+- Go 1.20 or higher
+- Compatible with Linux, MacOS, and Windows systems
 
-## 安装指南
+## Installation Guide
 
-### 从源码构建
+### Building from Source
 
-1. 克隆仓库
+1. Clone the repository
 
 ```bash
 git clone https://github.com/VXETChain/VXET-SDK.git
 cd VXET-SDK
 ```
 
-2. 编译 VXET 客户端
+2. Compile the VXET client
 
 ```bash
 make vxet
 ```
 
-编译完成后，可执行文件将位于 `build/bin/` 目录中。
+After compilation, the executable will be located in the `build/bin/` directory.
 
-### 使用预编译版本
+### Using Pre-compiled Versions
 
-请访问 [发布页面](https://github.com/VXETChain/VXET-SDK/releases) 下载适合您系统的预编译版本。
+Visit the [Releases page](https://github.com/VXETChain/VXET-SDK/releases) to download the pre-compiled version suitable for your system.
 
-## 使用方法
+## Usage
 
-### 启动 VXET 客户端
+### Starting the VXET Client
 
 ```bash
 ./build/bin/vxet
 ```
 
-### 开发工具
+### Development Tools
 
-安装开发所需工具：
+Install the required development tools:
 
 ```bash
 make devtools
 ```
 
-### 运行测试
+### Running Tests
 
 ```bash
 make test
 ```
 
-## 项目结构
+## Project Structure
 
-- `cmd/`: 包含各种命令行工具
-  - `vxet/`: VXET 客户端
-  - `abigen/`: 智能合约 ABI 生成工具
-  - 其他实用工具
-- `common/`: 通用工具和数据结构
-  - `hexutil/`: 十六进制工具
-  - `math/`: 数学运算工具
-  - `prque/`: 优先队列实现
-- `consensus/`: 共识算法实现
-  - `clique/`: PoA 共识算法
-- `vxetclient/`: 客户端实现
-  - `gethclient/`: 以太坊客户端兼容接口
-- `vxet/`: 核心区块链实现
-  - `protocols/`: 网络协议实现
-  - `gasprice/`: Gas 价格管理
-  - `downloader/`: 区块下载器
-- `params/`: 网络参数配置
-- `rpc/`: RPC 服务实现
-- `p2p/`: P2P 网络层实现
-- `vxetdb/`: 区块链数据库
-- `node/`: 节点服务
-- `console/`: 控制台接口
-- `graphql/`: GraphQL API 实现
-- `signer/`: 交易签名工具
+- `cmd/`: Contains various command-line tools
+  - `vxet/`: VXET client
+  - `abigen/`: Smart contract ABI generation tool
+  - Other utility tools
+- `common/`: Common utilities and data structures
+  - `hexutil/`: Hexadecimal utilities
+  - `math/`: Mathematical operation tools
+  - `prque/`: Priority queue implementation
+- `consensus/`: Consensus algorithm implementation
+  - `clique/`: PoA consensus algorithm
+- `vxetclient/`: Client implementation
+  - `gethclient/`: Ethereum client compatibility interface
+- `vxet/`: Core blockchain implementation
+  - `protocols/`: Network protocol implementation
+  - `gasprice/`: Gas price management
+  - `downloader/`: Block downloader
+- `params/`: Network parameter configuration
+- `rpc/`: RPC service implementation
+- `p2p/`: P2P network layer implementation
+- `vxetdb/`: Blockchain database
+- `node/`: Node services
+- `console/`: Console interface
+- `graphql/`: GraphQL API implementation
+- `signer/`: Transaction signing tools
 
-## 许可证
+## License
 
-本项目采用 GPL-3.0 许可证，详情请参阅 [COPYING](COPYING) 文件。
+This project is licensed under GPL-3.0, please refer to the [COPYING](COPYING) file for details.
 
-## 贡献指南
+## Contribution Guidelines
 
-欢迎提交 Pull Requests 和 Issues。在提交代码前，请确保通过所有测试并遵循项目的代码规范。
+Pull Requests and Issues are welcome. Before submitting code, please ensure that all tests are passed and follow the project's code standards.
 
-## 联系方式
+## Contact Information
 
-- 官方网站：[VXET Chain](https://www.vertexect.com/)
-- 问题反馈：请在 GitHub 上提交 Issue 
+- Official website: [VXET Chain](https://www.vertexect.com/)
+- Feedback: Please submit an Issue on GitHub 
