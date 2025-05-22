@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/common/bitutil"
+	"github.com/VXETChain/VXET-SDK/metrics"
+	"github.com/VXETChain/VXET-SDK/p2p/rlpx"
+	"github.com/VXETChain/VXET-SDK/rlp"
 )
 
 const (

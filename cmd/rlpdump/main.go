@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/rlp"
 )
 
 var (

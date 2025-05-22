@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/common/prque"
+	"github.com/VXETChain/VXET-SDK/eth/protocols/eth"
+	"github.com/VXETChain/VXET-SDK/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

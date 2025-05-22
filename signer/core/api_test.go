@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/VXETChain/VXET-SDK/accounts"
+	"github.com/VXETChain/VXET-SDK/accounts/keystore"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/common/hexutil"
+	"github.com/VXETChain/VXET-SDK/core/types"
+	"github.com/VXETChain/VXET-SDK/internal/ethapi"
+	"github.com/VXETChain/VXET-SDK/rlp"
+	"github.com/VXETChain/VXET-SDK/signer/core"
+	"github.com/VXETChain/VXET-SDK/signer/core/apitypes"
+	"github.com/VXETChain/VXET-SDK/signer/fourbyte"
+	"github.com/VXETChain/VXET-SDK/signer/storage"
 )
 
 // Used for testing

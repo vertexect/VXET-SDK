@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/common/math"
+	"github.com/VXETChain/VXET-SDK/consensus/misc"
+	"github.com/VXETChain/VXET-SDK/core/types"
+	"github.com/VXETChain/VXET-SDK/params"
 )
 
 // VerifyEIP1559Header verifies some header attributes which were changed in EIP-1559,

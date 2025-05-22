@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/common/hexutil"
+	"github.com/VXETChain/VXET-SDK/common/math"
+	"github.com/VXETChain/VXET-SDK/core/types"
 )
 
 var _ = (*headerMarshaling)(nil)

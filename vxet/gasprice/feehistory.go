@@ -26,12 +26,12 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/consensus/misc/eip1559"
+	"github.com/VXETChain/VXET-SDK/consensus/misc/eip4844"
+	"github.com/VXETChain/VXET-SDK/core/types"
+	"github.com/VXETChain/VXET-SDK/log"
+	"github.com/VXETChain/VXET-SDK/rpc"
 )
 
 var (

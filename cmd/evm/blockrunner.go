@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/VXETChain/VXET-SDK/core"
+	"github.com/VXETChain/VXET-SDK/core/rawdb"
+	"github.com/VXETChain/VXET-SDK/core/vm"
+	"github.com/VXETChain/VXET-SDK/eth/tracers/logger"
+	"github.com/VXETChain/VXET-SDK/tests"
 	"github.com/urfave/cli/v2"
 )
 

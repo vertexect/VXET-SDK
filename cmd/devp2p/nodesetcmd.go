@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/VXETChain/VXET-SDK/core"
+	"github.com/VXETChain/VXET-SDK/core/forkid"
+	"github.com/VXETChain/VXET-SDK/p2p/enr"
+	"github.com/VXETChain/VXET-SDK/params"
+	"github.com/VXETChain/VXET-SDK/rlp"
 	"github.com/urfave/cli/v2"
 )
 

@@ -24,14 +24,14 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/core/state"
+	"github.com/VXETChain/VXET-SDK/core/types"
+	"github.com/VXETChain/VXET-SDK/crypto"
+	"github.com/VXETChain/VXET-SDK/eth/protocols/snap"
+	"github.com/VXETChain/VXET-SDK/internal/utesting"
+	"github.com/VXETChain/VXET-SDK/trie"
+	"github.com/VXETChain/VXET-SDK/trie/trienode"
 	"golang.org/x/crypto/sha3"
 )
 

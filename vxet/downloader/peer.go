@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/eth/protocols/eth"
+	"github.com/VXETChain/VXET-SDK/event"
+	"github.com/VXETChain/VXET-SDK/log"
+	"github.com/VXETChain/VXET-SDK/p2p/msgrate"
 )
 
 const (

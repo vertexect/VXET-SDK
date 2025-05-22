@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/VXETChain/VXET-SDK/accounts/keystore"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/console/prompt"
+	"github.com/VXETChain/VXET-SDK/p2p/dnsdisc"
+	"github.com/VXETChain/VXET-SDK/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

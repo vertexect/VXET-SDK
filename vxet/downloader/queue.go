@@ -26,15 +26,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/common/prque"
+	"github.com/VXETChain/VXET-SDK/core/types"
+	"github.com/VXETChain/VXET-SDK/crypto/kzg4844"
+	"github.com/VXETChain/VXET-SDK/eth/ethconfig"
+	"github.com/VXETChain/VXET-SDK/log"
+	"github.com/VXETChain/VXET-SDK/metrics"
+	"github.com/VXETChain/VXET-SDK/params"
+	"github.com/VXETChain/VXET-SDK/rlp"
 )
 
 const (

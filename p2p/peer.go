@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/VXETChain/VXET-SDK/common/mclock"
+	"github.com/VXETChain/VXET-SDK/event"
+	"github.com/VXETChain/VXET-SDK/log"
+	"github.com/VXETChain/VXET-SDK/metrics"
+	"github.com/VXETChain/VXET-SDK/p2p/enode"
+	"github.com/VXETChain/VXET-SDK/p2p/enr"
+	"github.com/VXETChain/VXET-SDK/rlp"
 	"golang.org/x/exp/slices"
 )
 

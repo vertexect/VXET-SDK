@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/VXETChain/VXET-SDK/common/mclock"
+	"github.com/VXETChain/VXET-SDK/log"
+	"github.com/VXETChain/VXET-SDK/p2p/enode"
+	"github.com/VXETChain/VXET-SDK/p2p/enr"
+	"github.com/VXETChain/VXET-SDK/p2p/netutil"
 )
 
 // UDPConn is a network connection on which discovery can operate.

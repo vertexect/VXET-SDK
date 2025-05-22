@@ -22,15 +22,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/consensus/ethash"
+	"github.com/VXETChain/VXET-SDK/core"
+	"github.com/VXETChain/VXET-SDK/core/rawdb"
+	"github.com/VXETChain/VXET-SDK/core/types"
+	"github.com/VXETChain/VXET-SDK/core/vm"
+	"github.com/VXETChain/VXET-SDK/crypto"
+	"github.com/VXETChain/VXET-SDK/params"
+	"github.com/VXETChain/VXET-SDK/triedb"
 )
 
 // Test chain parameters.

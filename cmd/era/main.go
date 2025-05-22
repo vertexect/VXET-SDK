@@ -26,13 +26,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/core/types"
+	"github.com/VXETChain/VXET-SDK/internal/era"
+	"github.com/VXETChain/VXET-SDK/internal/ethapi"
+	"github.com/VXETChain/VXET-SDK/internal/flags"
+	"github.com/VXETChain/VXET-SDK/params"
+	"github.com/VXETChain/VXET-SDK/trie"
 	"github.com/urfave/cli/v2"
 )
 

@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/asm"
+	"github.com/VXETChain/VXET-SDK/core/asm"
 	"github.com/urfave/cli/v2"
 )
 

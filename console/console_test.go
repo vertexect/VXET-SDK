@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/console/prompt"
+	"github.com/VXETChain/VXET-SDK/core"
+	"github.com/VXETChain/VXET-SDK/eth"
+	"github.com/VXETChain/VXET-SDK/eth/ethconfig"
+	"github.com/VXETChain/VXET-SDK/internal/jsre"
+	"github.com/VXETChain/VXET-SDK/miner"
+	"github.com/VXETChain/VXET-SDK/node"
 )
 
 const (

@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/VXETChain/VXET-SDK/core/rawdb"
+	"github.com/VXETChain/VXET-SDK/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

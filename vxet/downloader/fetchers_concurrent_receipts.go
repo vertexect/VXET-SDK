@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/VXETChain/VXET-SDK/common"
+	"github.com/VXETChain/VXET-SDK/eth/protocols/eth"
+	"github.com/VXETChain/VXET-SDK/log"
 )
 
 // receiptQueue implements typedQueue and is a type adapter between the generic

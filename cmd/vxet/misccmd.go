@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/VXETChain/VXET-SDK/internal/version"
+	"github.com/VXETChain/VXET-SDK/params"
 	"github.com/urfave/cli/v2"
 )
 
